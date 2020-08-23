@@ -161,5 +161,15 @@ namespace Trivio_Learn.Forms
             Trivio_Learn.Show();
             Visible = false;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

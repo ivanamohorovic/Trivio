@@ -83,11 +83,13 @@ namespace Trivio_Learn.Forms
 
         private void btnPeoplemenu_Click(object sender, EventArgs e)
         {
+            openChildForm(new Vocabulary_people());
             hideSubMenu();
         }
 
         private void btnPrivateLifemenu_Click(object sender, EventArgs e)
         {
+            openChildForm(new Vocabulary_private_life());
             hideSubMenu();
         }
 
@@ -96,24 +98,35 @@ namespace Trivio_Learn.Forms
             showSubMenu(panelReadingSubmenu);
         }
 
-        private void btnPastSimplemenu_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
-
-        private void btnPastContmenu_Click(object sender, EventArgs e)
-        {
-            hideSubMenu();
-        }
-
         private void btnReading3_Click(object sender, EventArgs e)
         {
+            openChildForm(new Reading3());
+
             hideSubMenu();
         }
 
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnReading1_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new Reading1());
+            hideSubMenu();
+        }
+
+        private void btnReading2_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new Reading2());
+            hideSubMenu();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
         }
     }
 }

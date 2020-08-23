@@ -50,16 +50,23 @@ namespace Trivio_Learn
             Visible = false; 
         }
 
-        private void guna2ControlBox2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             Vocabulary Trivio_Learn = new Vocabulary();
             Trivio_Learn.Show();
             Visible = false;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

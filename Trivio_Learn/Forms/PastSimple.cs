@@ -37,5 +37,11 @@ namespace Trivio_Learn.Forms
         {
             openChildForm(new PastSimpleRules());
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ExerPastSimple());
+
+        }
     }
 }

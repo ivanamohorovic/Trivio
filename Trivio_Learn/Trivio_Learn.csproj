@@ -170,11 +170,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Body.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Body.Designer.cs">
+      <DependentUpon>Body.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Celebrations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Celebrations.Designer.cs">
+      <DependentUpon>Celebrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Clothes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Clothes.Designer.cs">
+      <DependentUpon>Clothes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Colours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Colours.Designer.cs">
+      <DependentUpon>Colours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Communication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Communication.Designer.cs">
+      <DependentUpon>Communication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Drinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Drinks.Designer.cs">
+      <DependentUpon>Drinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emotions_feelings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emotions_feelings.Designer.cs">
+      <DependentUpon>Emotions_feelings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExerGoingTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExerGoingTo.Designer.cs">
+      <DependentUpon>ExerGoingTo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Basic_Words.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Basic_Words.Designer.cs">
       <DependentUpon>Basic_Words.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExerPastCont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExerPastCont.Designer.cs">
+      <DependentUpon>ExerPastCont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExerPastSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExerPastSimple.Designer.cs">
+      <DependentUpon>ExerPastSimple.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ExerPresentCont.cs">
       <SubType>Form</SubType>
@@ -187,6 +247,24 @@
     </Compile>
     <Compile Include="Forms\ExerPresentSimple.Designer.cs">
       <DependentUpon>ExerPresentSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExerWillFuture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExerWillFuture.Designer.cs">
+      <DependentUpon>ExerWillFuture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Family.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Family.Designer.cs">
+      <DependentUpon>Family.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Food.Designer.cs">
+      <DependentUpon>Food.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FutureGoingRules.cs">
       <SubType>Form</SubType>
@@ -205,6 +283,90 @@
     </Compile>
     <Compile Include="Forms\FutureGoing.Designer.cs">
       <DependentUpon>FutureGoing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Health_Care.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Health_Care.Designer.cs">
+      <DependentUpon>Health_Care.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Leisure_time.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Leisure_time.Designer.cs">
+      <DependentUpon>Leisure_time.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Numbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Numbers.Designer.cs">
+      <DependentUpon>Numbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\People_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\People_test.Designer.cs">
+      <DependentUpon>People_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Physical_appearance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Physical_appearance.Designer.cs">
+      <DependentUpon>Physical_appearance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Private_life_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Private_life_test.Designer.cs">
+      <DependentUpon>Private_life_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reading1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reading1.Designer.cs">
+      <DependentUpon>Reading1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reading1_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reading1_test.Designer.cs">
+      <DependentUpon>Reading1_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reading2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reading2.Designer.cs">
+      <DependentUpon>Reading2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reading3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reading3.Designer.cs">
+      <DependentUpon>Reading3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Result_common.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Result_common.Designer.cs">
+      <DependentUpon>Result_common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Result_reading1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Result_reading1.Designer.cs">
+      <DependentUpon>Result_reading1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Time_Date.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Time_Date.Designer.cs">
+      <DependentUpon>Time_Date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Travel_tourism.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Travel_tourism.Designer.cs">
+      <DependentUpon>Travel_tourism.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Vocabulary.cs">
       <SubType>Form</SubType>
@@ -320,23 +482,35 @@
     <Compile Include="Forms\PresentSimpleRulePlus.Designer.cs">
       <DependentUpon>PresentSimpleRulePlus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ResultPresCont.cs">
+    <Compile Include="Forms\Result_grammar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ResultPresCont.Designer.cs">
-      <DependentUpon>ResultPresCont.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Result_Present_Simple.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Result_Present_Simple.Designer.cs">
-      <DependentUpon>Result_Present_Simple.cs</DependentUpon>
+    <Compile Include="Forms\Result_grammar.Designer.cs">
+      <DependentUpon>Result_grammar.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Vocabulary_Common.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Vocabulary_Common.Designer.cs">
       <DependentUpon>Vocabulary_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vocabulary_people.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vocabulary_people.Designer.cs">
+      <DependentUpon>Vocabulary_people.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vocabulary_private_life.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vocabulary_private_life.Designer.cs">
+      <DependentUpon>Vocabulary_private_life.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Common_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Common_test.Designer.cs">
+      <DependentUpon>Common_test.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Welcome.cs">
       <SubType>Form</SubType>
@@ -357,14 +531,66 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>trivio_learnDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="trivio_learnDataSet1.cs">
+      <DependentUpon>trivio_learnDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="trivio_learnDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>trivio_learnDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="trivio_learnDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>trivio_learnDataSet2.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Body.resx">
+      <DependentUpon>Body.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Celebrations.resx">
+      <DependentUpon>Celebrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Clothes.resx">
+      <DependentUpon>Clothes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Colours.resx">
+      <DependentUpon>Colours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Communication.resx">
+      <DependentUpon>Communication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Drinks.resx">
+      <DependentUpon>Drinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emotions_feelings.resx">
+      <DependentUpon>Emotions_feelings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExerGoingTo.resx">
+      <DependentUpon>ExerGoingTo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Basic_Words.resx">
       <DependentUpon>Basic_Words.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExerPastCont.resx">
+      <DependentUpon>ExerPastCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExerPastSimple.resx">
+      <DependentUpon>ExerPastSimple.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ExerPresentCont.resx">
       <DependentUpon>ExerPresentCont.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ExerPresentSimple.resx">
       <DependentUpon>ExerPresentSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExerWillFuture.resx">
+      <DependentUpon>ExerWillFuture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Family.resx">
+      <DependentUpon>Family.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Food.resx">
+      <DependentUpon>Food.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FutureGoing.resx">
       <DependentUpon>FutureGoing.cs</DependentUpon>
@@ -374,6 +600,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FutureWillRules.resx">
       <DependentUpon>FutureWillRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Health_Care.resx">
+      <DependentUpon>Health_Care.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Leisure_time.resx">
+      <DependentUpon>Leisure_time.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Numbers.resx">
+      <DependentUpon>Numbers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PastContinuous.resx">
       <DependentUpon>PastContinuous.cs</DependentUpon>
@@ -386,6 +621,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PastSimpleRules.resx">
       <DependentUpon>PastSimpleRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\People_test.resx">
+      <DependentUpon>People_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Physical_appearance.resx">
+      <DependentUpon>Physical_appearance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PresentContinuous.resx">
       <DependentUpon>PresentContinuous.cs</DependentUpon>
@@ -420,17 +661,50 @@
     <EmbeddedResource Include="Forms\PresentSimpleRules.resx">
       <DependentUpon>PresentSimpleRules.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ResultPresCont.resx">
-      <DependentUpon>ResultPresCont.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Private_life_test.resx">
+      <DependentUpon>Private_life_test.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Result_Present_Simple.resx">
-      <DependentUpon>Result_Present_Simple.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Reading1.resx">
+      <DependentUpon>Reading1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reading1_test.resx">
+      <DependentUpon>Reading1_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reading2.resx">
+      <DependentUpon>Reading2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reading3.resx">
+      <DependentUpon>Reading3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Result_grammar.resx">
+      <DependentUpon>Result_grammar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Result_common.resx">
+      <DependentUpon>Result_common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Result_reading1.resx">
+      <DependentUpon>Result_reading1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Time_Date.resx">
+      <DependentUpon>Time_Date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Travel_tourism.resx">
+      <DependentUpon>Travel_tourism.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Vocabulary.resx">
       <DependentUpon>Vocabulary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Vocabulary_Common.resx">
       <DependentUpon>Vocabulary_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vocabulary_people.resx">
+      <DependentUpon>Vocabulary_people.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vocabulary_private_life.resx">
+      <DependentUpon>Vocabulary_private_life.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Common_test.resx">
+      <DependentUpon>Common_test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
@@ -467,6 +741,28 @@
     </None>
     <None Include="trivio_learnDataSet.xss">
       <DependentUpon>trivio_learnDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="trivio_learnDataSet1.xsc">
+      <DependentUpon>trivio_learnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="trivio_learnDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>trivio_learnDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="trivio_learnDataSet1.xss">
+      <DependentUpon>trivio_learnDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="trivio_learnDataSet2.xsc">
+      <DependentUpon>trivio_learnDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="trivio_learnDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>trivio_learnDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="trivio_learnDataSet2.xss">
+      <DependentUpon>trivio_learnDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

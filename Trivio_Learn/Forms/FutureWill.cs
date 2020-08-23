@@ -35,5 +35,11 @@ namespace Trivio_Learn.Forms
         {
             openChildForm(new FutureWillRules());
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ExerWillFuture());
+
+        }
     }
 }
