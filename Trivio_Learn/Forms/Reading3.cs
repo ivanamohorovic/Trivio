@@ -22,6 +22,21 @@ namespace Trivio_Learn.Forms
         MySqlConnection connection;
         MySqlCommand com;
 
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel1.Controls.Add(childForm);
+            panel1.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void Reading3_Load(object sender, EventArgs e)
         {
             connection = new MySqlConnection("datasource=localhost;port=3306;database=trivio_learn;username=root;password=nov23dku");
@@ -49,6 +64,25 @@ namespace Trivio_Learn.Forms
 
             }
             connection.Close();
+        }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Reading_test());
+
+            int id_reading = 3;
+            Reading_test myResult = new Reading_test();
+            myResult.IdReading(id_reading);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panel1.Controls.Add(myResult);
+            panel1.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
         }
     }
 }

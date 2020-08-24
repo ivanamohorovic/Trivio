@@ -43,9 +43,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.presentSimpleRuleMinus1 = new Trivio_Learn.Forms.PresentSimpleRuleMinus();
-            this.presentSimpleRulePlus1 = new Trivio_Learn.Forms.PresentSimpleRulePlus();
-            this.presentSimpleRuleQuestion1 = new Trivio_Learn.Forms.PresentSimpleRuleQuestion();
             this.panelChildFormPresentSimpleRules.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,9 +62,6 @@
             this.panelChildFormPresentSimpleRules.Controls.Add(this.label4);
             this.panelChildFormPresentSimpleRules.Controls.Add(this.bunifuCustomLabel10);
             this.panelChildFormPresentSimpleRules.Controls.Add(this.bunifuCustomLabel11);
-            this.panelChildFormPresentSimpleRules.Controls.Add(this.presentSimpleRuleMinus1);
-            this.panelChildFormPresentSimpleRules.Controls.Add(this.presentSimpleRulePlus1);
-            this.panelChildFormPresentSimpleRules.Controls.Add(this.presentSimpleRuleQuestion1);
             this.panelChildFormPresentSimpleRules.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildFormPresentSimpleRules.Location = new System.Drawing.Point(0, 0);
             this.panelChildFormPresentSimpleRules.Name = "panelChildFormPresentSimpleRules";
@@ -302,33 +296,6 @@
             this.bunifuCustomLabel11.TabIndex = 40;
             this.bunifuCustomLabel11.Text = "______________";
             // 
-            // presentSimpleRuleMinus1
-            // 
-            this.presentSimpleRuleMinus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentSimpleRuleMinus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentSimpleRuleMinus1.Location = new System.Drawing.Point(0, 0);
-            this.presentSimpleRuleMinus1.Name = "presentSimpleRuleMinus1";
-            this.presentSimpleRuleMinus1.Size = new System.Drawing.Size(700, 465);
-            this.presentSimpleRuleMinus1.TabIndex = 63;
-            // 
-            // presentSimpleRulePlus1
-            // 
-            this.presentSimpleRulePlus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentSimpleRulePlus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentSimpleRulePlus1.Location = new System.Drawing.Point(0, 0);
-            this.presentSimpleRulePlus1.Name = "presentSimpleRulePlus1";
-            this.presentSimpleRulePlus1.Size = new System.Drawing.Size(700, 465);
-            this.presentSimpleRulePlus1.TabIndex = 62;
-            // 
-            // presentSimpleRuleQuestion1
-            // 
-            this.presentSimpleRuleQuestion1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentSimpleRuleQuestion1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentSimpleRuleQuestion1.Location = new System.Drawing.Point(0, 0);
-            this.presentSimpleRuleQuestion1.Name = "presentSimpleRuleQuestion1";
-            this.presentSimpleRuleQuestion1.Size = new System.Drawing.Size(700, 465);
-            this.presentSimpleRuleQuestion1.TabIndex = 64;
-            // 
             // PresentSimpleRules
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,9 +325,6 @@
         private System.Windows.Forms.Label label4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel11;
-        private PresentSimpleRulePlus presentSimpleRulePlus1;
-        private PresentSimpleRuleQuestion presentSimpleRuleQuestion1;
-        private PresentSimpleRuleMinus presentSimpleRuleMinus1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;

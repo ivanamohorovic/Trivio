@@ -46,9 +46,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.presentContRulePlus1 = new Trivio_Learn.Forms.PresentContRulePlus();
-            this.presentContRuleMinus1 = new Trivio_Learn.Forms.PresentContRuleMinus();
-            this.presentContRuleQuestion1 = new Trivio_Learn.Forms.PresentContRuleQuestion();
             this.panelChildFormPresentContinuousRules.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,9 +68,6 @@
             this.panelChildFormPresentContinuousRules.Controls.Add(this.label4);
             this.panelChildFormPresentContinuousRules.Controls.Add(this.bunifuCustomLabel10);
             this.panelChildFormPresentContinuousRules.Controls.Add(this.bunifuCustomLabel11);
-            this.panelChildFormPresentContinuousRules.Controls.Add(this.presentContRulePlus1);
-            this.panelChildFormPresentContinuousRules.Controls.Add(this.presentContRuleMinus1);
-            this.panelChildFormPresentContinuousRules.Controls.Add(this.presentContRuleQuestion1);
             this.panelChildFormPresentContinuousRules.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildFormPresentContinuousRules.Location = new System.Drawing.Point(0, 0);
             this.panelChildFormPresentContinuousRules.Name = "panelChildFormPresentContinuousRules";
@@ -345,33 +339,6 @@
             this.bunifuCustomLabel11.TabIndex = 49;
             this.bunifuCustomLabel11.Text = "______________";
             // 
-            // presentContRulePlus1
-            // 
-            this.presentContRulePlus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentContRulePlus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentContRulePlus1.Location = new System.Drawing.Point(0, 0);
-            this.presentContRulePlus1.Name = "presentContRulePlus1";
-            this.presentContRulePlus1.Size = new System.Drawing.Size(700, 465);
-            this.presentContRulePlus1.TabIndex = 63;
-            // 
-            // presentContRuleMinus1
-            // 
-            this.presentContRuleMinus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentContRuleMinus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentContRuleMinus1.Location = new System.Drawing.Point(0, 0);
-            this.presentContRuleMinus1.Name = "presentContRuleMinus1";
-            this.presentContRuleMinus1.Size = new System.Drawing.Size(700, 465);
-            this.presentContRuleMinus1.TabIndex = 62;
-            // 
-            // presentContRuleQuestion1
-            // 
-            this.presentContRuleQuestion1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.presentContRuleQuestion1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.presentContRuleQuestion1.Location = new System.Drawing.Point(0, 0);
-            this.presentContRuleQuestion1.Name = "presentContRuleQuestion1";
-            this.presentContRuleQuestion1.Size = new System.Drawing.Size(700, 465);
-            this.presentContRuleQuestion1.TabIndex = 64;
-            // 
             // PresentContinuousRules
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -408,8 +375,5 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
-        private PresentContRuleMinus presentContRuleMinus1;
-        private PresentContRuleQuestion presentContRuleQuestion1;
-        private PresentContRulePlus presentContRulePlus1;
     }
 }

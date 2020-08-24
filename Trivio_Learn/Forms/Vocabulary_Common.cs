@@ -67,7 +67,22 @@ namespace Trivio_Learn.Forms
 
         private void button_test_basicwords_Click(object sender, EventArgs e)
         {
-            openChildForm(new Common_test());
+            openChildForm(new Vocabulary_test());
+
+            string vocabulary_category_click = "common";
+            Vocabulary_test myResult = new Vocabulary_test();
+            myResult.VocabularyCategoryClick(vocabulary_category_click);
+
+            Console.WriteLine(vocabulary_category_click);
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelVocabulary_Common.Controls.Add(myResult);
+            panelVocabulary_Common.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
 
         }
     }

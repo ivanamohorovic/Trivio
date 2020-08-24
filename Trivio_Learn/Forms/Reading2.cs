@@ -22,6 +22,21 @@ namespace Trivio_Learn.Forms
         MySqlConnection connection;
         MySqlCommand com;
 
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel1.Controls.Add(childForm);
+            panel1.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void Reading2_Load_1(object sender, EventArgs e)
         {
             connection = new MySqlConnection("datasource=localhost;port=3306;database=trivio_learn;username=root;password=nov23dku");
@@ -37,6 +52,7 @@ namespace Trivio_Learn.Forms
                 txtBox.Multiline = true;
                 txtBox.WordWrap = true;
                 txtBox.ReadOnly = true;
+                txtBox.Name = reader["id_reading"].ToString();
                 txtBox.Text = reader["reading_text"].ToString();
                 txtBox.Size = new System.Drawing.Size(600, 300);
                 txtBox.Visible = true;
@@ -49,6 +65,26 @@ namespace Trivio_Learn.Forms
 
             }
             connection.Close();
+
+        }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Reading_test());
+
+            int id_reading = 2;
+            Reading_test myResult = new Reading_test();
+            myResult.IdReading(id_reading);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panel1.Controls.Add(myResult);
+            panel1.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
 
         }
     }

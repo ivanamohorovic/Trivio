@@ -21,33 +21,71 @@ namespace Trivio_Learn.Forms
 
         private void PresentSimpleRules_Load(object sender, EventArgs e)
         {
-            presentSimpleRulePlus1.Hide();
-            presentSimpleRuleMinus1.Hide();
-            presentSimpleRuleQuestion1.Hide();
+          
         }
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            presentSimpleRuleMinus1.Hide();
-            presentSimpleRuleQuestion1.Hide();
-            presentSimpleRulePlus1.Show();
-            presentSimpleRulePlus1.BringToFront();
+            int id_tenses_type = 1;
+            int id_rule_type = 1;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentSimpleRules.Controls.Add(myResult);
+            panelChildFormPresentSimpleRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
         }
 
         private void bunifuFlatButton5_Click_1(object sender, EventArgs e)
         {
-            presentSimpleRulePlus1.Hide();
-            presentSimpleRuleQuestion1.Hide();
-            presentSimpleRuleMinus1.Show();
-            presentSimpleRuleMinus1.BringToFront();
+
+            int id_tenses_type = 1;
+            int id_rule_type = 2;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentSimpleRules.Controls.Add(myResult);
+            panelChildFormPresentSimpleRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+
         }
 
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
-            presentSimpleRulePlus1.Hide();
-            presentSimpleRuleMinus1.Hide();
-            presentSimpleRuleQuestion1.Show();
-            presentSimpleRuleQuestion1.BringToFront();
+            int id_tenses_type = 1;
+            int id_rule_type = 3;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentSimpleRules.Controls.Add(myResult);
+            panelChildFormPresentSimpleRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+
+
         }
     }
 }

@@ -19,9 +19,7 @@ namespace Trivio_Learn.Forms
 
         private void PresentContinuousRules_Load_1(object sender, EventArgs e)
         {
-            presentContRulePlus1.Hide();
-            presentContRuleMinus1.Hide();
-            presentContRuleQuestion1.Hide();
+            
         }
 
         private void bunifuCustomLabel6_Click(object sender, EventArgs e)
@@ -31,27 +29,63 @@ namespace Trivio_Learn.Forms
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            presentContRuleMinus1.Hide();
-            presentContRuleQuestion1.Hide();
-            presentContRulePlus1.Show();
-            presentContRulePlus1.BringToFront();
+            int id_tenses_type = 2;
+            int id_rule_type = 1;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentContinuousRules.Controls.Add(myResult);
+            panelChildFormPresentContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+
         }
 
         private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
-            presentContRulePlus1.Hide();
-            presentContRuleQuestion1.Hide();
-            presentContRuleMinus1.Show();
-            presentContRuleMinus1.BringToFront();
+            int id_tenses_type = 2;
+            int id_rule_type = 2;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
 
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentContinuousRules.Controls.Add(myResult);
+            panelChildFormPresentContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
         }
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
-            presentContRulePlus1.Hide();
-            presentContRuleMinus1.Hide();
-            presentContRuleQuestion1.Show();
-            presentContRuleQuestion1.BringToFront();
+            int id_tenses_type = 2;
+            int id_rule_type = 3;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentContinuousRules.Controls.Add(myResult);
+            panelChildFormPresentContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
 
         }
 

@@ -52,7 +52,20 @@ namespace Trivio_Learn.Forms
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
-            openChildForm(new ExerPresentSimple());
+            openChildForm(new Exercises_grammar());
+
+            Exercises_grammar myResult = new Exercises_grammar();
+            int id_tenses_main = 1;
+            myResult.IdTensesMain(id_tenses_main);
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPresentSimple.Controls.Add(myResult);
+            panelChildFormPresentSimple.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
         }
     }
 }

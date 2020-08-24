@@ -17,6 +17,7 @@ namespace Trivio_Learn.Forms
         public Reading1()
         {
             InitializeComponent();
+
   
         }
 
@@ -75,7 +76,21 @@ namespace Trivio_Learn.Forms
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            openChildForm(new Reading1_test());
+            openChildForm(new Reading_test());
+
+            int id_reading = 1;
+            Reading_test myResult = new Reading_test();
+            myResult.IdReading(id_reading);
+
+       
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panel1.Controls.Add(myResult);
+            panel1.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
 
         }
     }

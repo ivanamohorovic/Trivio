@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PastSimpleRules));
             this.panelChildFormPastSimpleRules = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -43,7 +44,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelChildFormPastSimpleRules.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,18 @@
             this.panelChildFormPastSimpleRules.Name = "panelChildFormPastSimpleRules";
             this.panelChildFormPastSimpleRules.Size = new System.Drawing.Size(700, 465);
             this.panelChildFormPastSimpleRules.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 14F);
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(25, 165);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(182, 22);
+            this.label2.TabIndex = 59;
+            this.label2.Text = "actions in the past.";
             // 
             // bunifuFlatButton2
             // 
@@ -103,6 +115,7 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.DimGray;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // bunifuFlatButton4
             // 
@@ -138,6 +151,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.DimGray;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
             // 
             // bunifuFlatButton5
             // 
@@ -173,6 +187,7 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.DimGray;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton5_Click);
             // 
             // label1
             // 
@@ -293,18 +308,6 @@
             this.bunifuCustomLabel11.Size = new System.Drawing.Size(420, 66);
             this.bunifuCustomLabel11.TabIndex = 49;
             this.bunifuCustomLabel11.Text = "______________";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 14F);
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(25, 165);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 22);
-            this.label2.TabIndex = 59;
-            this.label2.Text = "actions in the past.";
             // 
             // PastSimpleRules
             // 

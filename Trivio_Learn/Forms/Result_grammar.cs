@@ -20,10 +20,11 @@ namespace Trivio_Learn.Forms
         }
 
         MySqlConnection connection;
-
         string saveGraph;
-
         string saveVerb_number;
+        int saveIdTenses;
+        List<string> saveList;
+
 
         Label[] lbl = new Label[10];
 
@@ -35,6 +36,16 @@ namespace Trivio_Learn.Forms
         public void verb_number(string getResult)
         {
             saveVerb_number = getResult;
+        }
+
+        public void IdTenses (int getResult)
+        {
+            saveIdTenses = getResult;
+        }
+
+        public void Lista(List<string> getResult)
+        {
+            saveList = getResult;
         }
 
         private void Result_Load(object sender, EventArgs e)
@@ -56,32 +67,35 @@ namespace Trivio_Learn.Forms
                 circularProgressBar2.Update();
             }
 
-            connection = new MySqlConnection("datasource=localhost;port=3306;database=trivio_learn;username=root;password=nov23dku");
-            connection.Open();
-
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM sentence where id_tenses = 1", connection);
-            MySqlDataReader reader = cmd.ExecuteReader();
-
             int counter = 0;
             int space = 0;
 
-            while (reader.Read())
+            foreach (var i in saveList)
             {
-                lbl[counter] = new Label();
-                lbl[counter].Text = reader["full_sentence"].ToString();
-                lbl[counter].AutoSize = true;
-                lbl[counter].Visible = true;
-                lbl[counter].Location = new Point(40, 10 + space);
-                lbl[counter].Font = new Font("Century Gothic", 14);
-                lbl[counter].ForeColor = Color.MediumSeaGreen;
-                panelResult.Controls.Add(lbl[counter]);
+                connection = new MySqlConnection("datasource=localhost;port=3306;database=trivio_learn;username=root;password=nov23dku");
+                connection.Open();
 
-                space += 40;
-                counter++;
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM sentence where id_sentence =" + i, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
 
+                while (reader.Read())
+                {
+                    lbl[counter] = new Label();
+                    lbl[counter].Text = reader["full_sentence"].ToString();
+                    lbl[counter].AutoSize = true;
+                    lbl[counter].Visible = true;
+                    lbl[counter].Location = new Point(40, 10 + space);
+                    lbl[counter].Font = new Font("Century Gothic", 14);
+                    lbl[counter].ForeColor = Color.MediumSeaGreen;
+                    panelResult.Controls.Add(lbl[counter]);
+
+                    space += 40;
+                    counter++;
+
+                }
+                reader.Close();
+                connection.Close();
             }
-            reader.Close();
-            connection.Close();
 
         }
 

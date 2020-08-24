@@ -66,9 +66,24 @@ namespace Trivio_Learn.Forms
             openChildForm(new Celebrations());
         }
 
-        private void button_test_basicwords_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            openChildForm(new Private_life_test());
+            openChildForm(new Vocabulary_test());
+
+            string vocabulary_category_click = "private_life";
+            Vocabulary_test myResult = new Vocabulary_test();
+            myResult.VocabularyCategoryClick(vocabulary_category_click);
+
+            Console.WriteLine(vocabulary_category_click);
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panel1.Controls.Add(myResult);
+            panel1.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
 
         }
     }

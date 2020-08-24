@@ -16,5 +16,65 @@ namespace Trivio_Learn.Forms
         {
             InitializeComponent();
         }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            int id_tenses_type = 4;
+            int id_rule_type = 1;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPastContinuousRules.Controls.Add(myResult);
+            panelChildFormPastContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+        }
+
+        private void bunifuFlatButton5_Click(object sender, EventArgs e)
+        {
+            int id_tenses_type = 4;
+            int id_rule_type = 2;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPastContinuousRules.Controls.Add(myResult);
+            panelChildFormPastContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            int id_tenses_type = 4;
+            int id_rule_type = 3;
+            Rules_grammar myResult = new Rules_grammar();
+            myResult.IdRuleType(id_rule_type);
+
+            myResult.IdTensesType(id_tenses_type);
+
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelChildFormPastContinuousRules.Controls.Add(myResult);
+            panelChildFormPastContinuousRules.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+        }
     }
 }
