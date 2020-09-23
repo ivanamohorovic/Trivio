@@ -303,6 +303,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelChildFormPastContinuousRules);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PastContinuousRules";
             this.Text = "PastContinuousRules";
             this.panelChildFormPastContinuousRules.ResumeLayout(false);

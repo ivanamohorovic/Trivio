@@ -37,15 +37,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.play = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.audio_path = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.termDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.termsvocabularyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.trivio_learnDataSet1 = new Trivio_Learn.trivio_learnDataSet1();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.terms_vocabularyTableAdapter = new Trivio_Learn.trivio_learnDataSet1TableAdapters.terms_vocabularyTableAdapter();
-            this.play = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.audio_path = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.termDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.termsvocabularyBindingSource)).BeginInit();
@@ -142,44 +142,6 @@
             this.dataGridView1.TabIndex = 62;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // termsvocabularyBindingSource
-            // 
-            this.termsvocabularyBindingSource.DataMember = "terms_vocabulary";
-            this.termsvocabularyBindingSource.DataSource = this.trivio_learnDataSet1;
-            // 
-            // trivio_learnDataSet1
-            // 
-            this.trivio_learnDataSet1.DataSetName = "trivio_learnDataSet1";
-            this.trivio_learnDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.label1.Location = new System.Drawing.Point(211, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 24);
-            this.label1.TabIndex = 59;
-            this.label1.Text = "vocabulary";
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 32F);
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(334, 9);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(363, 52);
-            this.bunifuCustomLabel1.TabIndex = 58;
-            this.bunifuCustomLabel1.Text = "Communication";
-            // 
-            // terms_vocabularyTableAdapter
-            // 
-            this.terms_vocabularyTableAdapter.ClearBeforeFill = true;
-            // 
             // play
             // 
             this.play.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -239,6 +201,44 @@
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // termsvocabularyBindingSource
+            // 
+            this.termsvocabularyBindingSource.DataMember = "terms_vocabulary";
+            this.termsvocabularyBindingSource.DataSource = this.trivio_learnDataSet1;
+            // 
+            // trivio_learnDataSet1
+            // 
+            this.trivio_learnDataSet1.DataSetName = "trivio_learnDataSet1";
+            this.trivio_learnDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.ForeColor = System.Drawing.Color.DarkSeaGreen;
+            this.label1.Location = new System.Drawing.Point(211, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 24);
+            this.label1.TabIndex = 59;
+            this.label1.Text = "vocabulary";
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 32F);
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DarkSeaGreen;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(334, 9);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(363, 52);
+            this.bunifuCustomLabel1.TabIndex = 58;
+            this.bunifuCustomLabel1.Text = "Communication";
+            // 
+            // terms_vocabularyTableAdapter
+            // 
+            this.terms_vocabularyTableAdapter.ClearBeforeFill = true;
+            // 
             // Communication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,6 +247,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Communication";
             this.Text = "Communication";
             this.Load += new System.EventHandler(this.Communication_Load);

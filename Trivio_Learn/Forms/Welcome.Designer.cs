@@ -49,8 +49,8 @@
             // 
             // guna2DragControl1
             // 
-            this.guna2DragControl1.DragEndTransparencyValue = 0D;
-            this.guna2DragControl1.DragStartTransparencyValue = 0D;
+            this.guna2DragControl1.DragEndTransparencyValue = 0.1D;
+            this.guna2DragControl1.DragStartTransparencyValue = 0.1D;
             this.guna2DragControl1.TargetControl = null;
             // 
             // label1
@@ -231,6 +231,7 @@
             this.Controls.Add(this.bunifuCustomLabel2);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(900, 500);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

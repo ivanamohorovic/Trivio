@@ -148,7 +148,7 @@
             // 
             this.terms_vocabularyTableAdapter.ClearBeforeFill = true;
             // 
-            // Result_common
+            // Result_vocabulary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,7 +156,8 @@
             this.ClientSize = new System.Drawing.Size(713, 468);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Result_common";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Result_vocabulary";
             this.Text = "Result_vocabulary";
             this.Load += new System.EventHandler(this.Result_vocabulary_Load);
             this.panel1.ResumeLayout(false);

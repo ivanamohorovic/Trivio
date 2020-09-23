@@ -317,6 +317,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelChildFormFutureWillRules);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FutureWillRules";
             this.Text = "FutureWillRules";
             this.panelChildFormFutureWillRules.ResumeLayout(false);

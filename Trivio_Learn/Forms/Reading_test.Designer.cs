@@ -122,6 +122,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reading_test";
             this.Text = "Reading1_test";
             this.Load += new System.EventHandler(this.Reading1_test_Load);

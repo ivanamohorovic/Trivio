@@ -83,6 +83,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.DimGray;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
             // 
             // bunifuCustomLabel10
             // 
@@ -136,6 +137,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelResult);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Result_grammar";
             this.Text = "Result";
             this.Load += new System.EventHandler(this.Result_Load);

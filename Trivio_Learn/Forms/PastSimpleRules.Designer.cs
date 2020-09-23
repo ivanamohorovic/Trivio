@@ -317,6 +317,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelChildFormPastSimpleRules);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PastSimpleRules";
             this.Text = "PastSimpleRules";
             this.panelChildFormPastSimpleRules.ResumeLayout(false);

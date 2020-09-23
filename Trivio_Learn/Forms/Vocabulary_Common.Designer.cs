@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vocabulary_Common));
             this.panelVocabulary_Common = new System.Windows.Forms.Panel();
+            this.button_test_basicwords = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -43,7 +44,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.button_test_basicwords = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelVocabulary_Common.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -68,6 +68,43 @@
             this.panelVocabulary_Common.Name = "panelVocabulary_Common";
             this.panelVocabulary_Common.Size = new System.Drawing.Size(700, 465);
             this.panelVocabulary_Common.TabIndex = 20;
+            // 
+            // button_test_basicwords
+            // 
+            this.button_test_basicwords.Activecolor = System.Drawing.Color.DarkSeaGreen;
+            this.button_test_basicwords.AutoSize = true;
+            this.button_test_basicwords.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button_test_basicwords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_test_basicwords.BorderRadius = 7;
+            this.button_test_basicwords.ButtonText = "     TEST";
+            this.button_test_basicwords.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_test_basicwords.DisabledColor = System.Drawing.Color.DimGray;
+            this.button_test_basicwords.Iconcolor = System.Drawing.Color.Transparent;
+            this.button_test_basicwords.Iconimage = null;
+            this.button_test_basicwords.Iconimage_right = null;
+            this.button_test_basicwords.Iconimage_right_Selected = null;
+            this.button_test_basicwords.Iconimage_Selected = null;
+            this.button_test_basicwords.IconMarginLeft = 0;
+            this.button_test_basicwords.IconMarginRight = 0;
+            this.button_test_basicwords.IconRightVisible = true;
+            this.button_test_basicwords.IconRightZoom = 0D;
+            this.button_test_basicwords.IconVisible = true;
+            this.button_test_basicwords.IconZoom = 90D;
+            this.button_test_basicwords.IsTab = false;
+            this.button_test_basicwords.Location = new System.Drawing.Point(554, 0);
+            this.button_test_basicwords.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button_test_basicwords.Name = "button_test_basicwords";
+            this.button_test_basicwords.Normalcolor = System.Drawing.Color.DarkSeaGreen;
+            this.button_test_basicwords.OnHovercolor = System.Drawing.Color.DimGray;
+            this.button_test_basicwords.OnHoverTextColor = System.Drawing.Color.DarkSeaGreen;
+            this.button_test_basicwords.selected = false;
+            this.button_test_basicwords.Size = new System.Drawing.Size(146, 53);
+            this.button_test_basicwords.TabIndex = 94;
+            this.button_test_basicwords.Text = "     TEST";
+            this.button_test_basicwords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_test_basicwords.Textcolor = System.Drawing.Color.DimGray;
+            this.button_test_basicwords.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_test_basicwords.Click += new System.EventHandler(this.button_test_basicwords_Click);
             // 
             // bunifuCustomLabel2
             // 
@@ -323,43 +360,6 @@
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click_1);
             // 
-            // button_test_basicwords
-            // 
-            this.button_test_basicwords.Activecolor = System.Drawing.Color.DarkSeaGreen;
-            this.button_test_basicwords.AutoSize = true;
-            this.button_test_basicwords.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button_test_basicwords.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_test_basicwords.BorderRadius = 7;
-            this.button_test_basicwords.ButtonText = "     TEST";
-            this.button_test_basicwords.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_test_basicwords.DisabledColor = System.Drawing.Color.DimGray;
-            this.button_test_basicwords.Iconcolor = System.Drawing.Color.Transparent;
-            this.button_test_basicwords.Iconimage = null;
-            this.button_test_basicwords.Iconimage_right = null;
-            this.button_test_basicwords.Iconimage_right_Selected = null;
-            this.button_test_basicwords.Iconimage_Selected = null;
-            this.button_test_basicwords.IconMarginLeft = 0;
-            this.button_test_basicwords.IconMarginRight = 0;
-            this.button_test_basicwords.IconRightVisible = true;
-            this.button_test_basicwords.IconRightZoom = 0D;
-            this.button_test_basicwords.IconVisible = true;
-            this.button_test_basicwords.IconZoom = 90D;
-            this.button_test_basicwords.IsTab = false;
-            this.button_test_basicwords.Location = new System.Drawing.Point(554, 0);
-            this.button_test_basicwords.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button_test_basicwords.Name = "button_test_basicwords";
-            this.button_test_basicwords.Normalcolor = System.Drawing.Color.DarkSeaGreen;
-            this.button_test_basicwords.OnHovercolor = System.Drawing.Color.DimGray;
-            this.button_test_basicwords.OnHoverTextColor = System.Drawing.Color.DarkSeaGreen;
-            this.button_test_basicwords.selected = false;
-            this.button_test_basicwords.Size = new System.Drawing.Size(146, 53);
-            this.button_test_basicwords.TabIndex = 94;
-            this.button_test_basicwords.Text = "     TEST";
-            this.button_test_basicwords.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_test_basicwords.Textcolor = System.Drawing.Color.DimGray;
-            this.button_test_basicwords.TextFont = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button_test_basicwords.Click += new System.EventHandler(this.button_test_basicwords_Click);
-            // 
             // Vocabulary_Common
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,6 +368,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelVocabulary_Common);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Vocabulary_Common";
             this.Text = "Vocabulary_Common";
             this.Load += new System.EventHandler(this.Vocabulary_Common_Load);

@@ -499,6 +499,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Vocabulary_private_life";
             this.Text = "Vocabulary_private_life";
             this.panel1.ResumeLayout(false);

@@ -32,17 +32,14 @@
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelFutureSubmenu = new System.Windows.Forms.Panel();
-            this.btnFutureExermenu = new System.Windows.Forms.Button();
             this.btnFutureGoingmenu = new System.Windows.Forms.Button();
             this.btnFutureWillmenu = new System.Windows.Forms.Button();
             this.btnFuturemenu = new System.Windows.Forms.Button();
             this.panelPastSubmenu = new System.Windows.Forms.Panel();
-            this.btnPastExermenu = new System.Windows.Forms.Button();
             this.btnPastContmenu = new System.Windows.Forms.Button();
             this.btnPastSimplemenu = new System.Windows.Forms.Button();
             this.btnPastmenu = new System.Windows.Forms.Button();
             this.panelPresentSubmenu = new System.Windows.Forms.Panel();
-            this.btnPresentExermenu = new System.Windows.Forms.Button();
             this.btnPresentContmenu = new System.Windows.Forms.Button();
             this.btnPresentSimplemenu = new System.Windows.Forms.Button();
             this.btnPresentmenu = new System.Windows.Forms.Button();
@@ -108,7 +105,7 @@
             this.bunifuFlatButton4.IconVisible = true;
             this.bunifuFlatButton4.IconZoom = 90D;
             this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(0, 544);
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(0, 456);
             this.bunifuFlatButton4.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
             this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent;
@@ -127,33 +124,13 @@
             // panelFutureSubmenu
             // 
             this.panelFutureSubmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.panelFutureSubmenu.Controls.Add(this.btnFutureExermenu);
             this.panelFutureSubmenu.Controls.Add(this.btnFutureGoingmenu);
             this.panelFutureSubmenu.Controls.Add(this.btnFutureWillmenu);
             this.panelFutureSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFutureSubmenu.Location = new System.Drawing.Point(0, 436);
+            this.panelFutureSubmenu.Location = new System.Drawing.Point(0, 380);
             this.panelFutureSubmenu.Name = "panelFutureSubmenu";
-            this.panelFutureSubmenu.Size = new System.Drawing.Size(183, 108);
+            this.panelFutureSubmenu.Size = new System.Drawing.Size(183, 76);
             this.panelFutureSubmenu.TabIndex = 6;
-            // 
-            // btnFutureExermenu
-            // 
-            this.btnFutureExermenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFutureExermenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFutureExermenu.FlatAppearance.BorderSize = 0;
-            this.btnFutureExermenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnFutureExermenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFutureExermenu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnFutureExermenu.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnFutureExermenu.Location = new System.Drawing.Point(0, 70);
-            this.btnFutureExermenu.Name = "btnFutureExermenu";
-            this.btnFutureExermenu.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnFutureExermenu.Size = new System.Drawing.Size(183, 35);
-            this.btnFutureExermenu.TabIndex = 8;
-            this.btnFutureExermenu.Text = "Exercises";
-            this.btnFutureExermenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFutureExermenu.UseVisualStyleBackColor = true;
-            this.btnFutureExermenu.Click += new System.EventHandler(this.btnFutureExermenu_Click);
             // 
             // btnFutureGoingmenu
             // 
@@ -199,7 +176,7 @@
             this.btnFuturemenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuturemenu.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFuturemenu.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnFuturemenu.Location = new System.Drawing.Point(0, 396);
+            this.btnFuturemenu.Location = new System.Drawing.Point(0, 340);
             this.btnFuturemenu.Name = "btnFuturemenu";
             this.btnFuturemenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnFuturemenu.Size = new System.Drawing.Size(183, 40);
@@ -212,33 +189,13 @@
             // panelPastSubmenu
             // 
             this.panelPastSubmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.panelPastSubmenu.Controls.Add(this.btnPastExermenu);
             this.panelPastSubmenu.Controls.Add(this.btnPastContmenu);
             this.panelPastSubmenu.Controls.Add(this.btnPastSimplemenu);
             this.panelPastSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelPastSubmenu.Location = new System.Drawing.Point(0, 288);
+            this.panelPastSubmenu.Location = new System.Drawing.Point(0, 259);
             this.panelPastSubmenu.Name = "panelPastSubmenu";
-            this.panelPastSubmenu.Size = new System.Drawing.Size(183, 108);
+            this.panelPastSubmenu.Size = new System.Drawing.Size(183, 81);
             this.panelPastSubmenu.TabIndex = 4;
-            // 
-            // btnPastExermenu
-            // 
-            this.btnPastExermenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPastExermenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPastExermenu.FlatAppearance.BorderSize = 0;
-            this.btnPastExermenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnPastExermenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPastExermenu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnPastExermenu.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnPastExermenu.Location = new System.Drawing.Point(0, 70);
-            this.btnPastExermenu.Name = "btnPastExermenu";
-            this.btnPastExermenu.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnPastExermenu.Size = new System.Drawing.Size(183, 35);
-            this.btnPastExermenu.TabIndex = 5;
-            this.btnPastExermenu.Text = "Exercises";
-            this.btnPastExermenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPastExermenu.UseVisualStyleBackColor = true;
-            this.btnPastExermenu.Click += new System.EventHandler(this.btnPastExermenu_Click);
             // 
             // btnPastContmenu
             // 
@@ -284,7 +241,7 @@
             this.btnPastmenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPastmenu.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnPastmenu.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnPastmenu.Location = new System.Drawing.Point(0, 248);
+            this.btnPastmenu.Location = new System.Drawing.Point(0, 219);
             this.btnPastmenu.Name = "btnPastmenu";
             this.btnPastmenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnPastmenu.Size = new System.Drawing.Size(183, 40);
@@ -297,32 +254,13 @@
             // panelPresentSubmenu
             // 
             this.panelPresentSubmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.panelPresentSubmenu.Controls.Add(this.btnPresentExermenu);
             this.panelPresentSubmenu.Controls.Add(this.btnPresentContmenu);
             this.panelPresentSubmenu.Controls.Add(this.btnPresentSimplemenu);
             this.panelPresentSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPresentSubmenu.Location = new System.Drawing.Point(0, 140);
             this.panelPresentSubmenu.Name = "panelPresentSubmenu";
-            this.panelPresentSubmenu.Size = new System.Drawing.Size(183, 108);
+            this.panelPresentSubmenu.Size = new System.Drawing.Size(183, 79);
             this.panelPresentSubmenu.TabIndex = 2;
-            // 
-            // btnPresentExermenu
-            // 
-            this.btnPresentExermenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPresentExermenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPresentExermenu.FlatAppearance.BorderSize = 0;
-            this.btnPresentExermenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPresentExermenu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnPresentExermenu.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnPresentExermenu.Location = new System.Drawing.Point(0, 70);
-            this.btnPresentExermenu.Name = "btnPresentExermenu";
-            this.btnPresentExermenu.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnPresentExermenu.Size = new System.Drawing.Size(183, 35);
-            this.btnPresentExermenu.TabIndex = 2;
-            this.btnPresentExermenu.Text = "Exercises";
-            this.btnPresentExermenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPresentExermenu.UseVisualStyleBackColor = true;
-            this.btnPresentExermenu.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnPresentContmenu
             // 
@@ -490,6 +428,7 @@
             this.Controls.Add(this.panelSideMenu);
             this.Controls.Add(this.panelChildForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(900, 500);
             this.Name = "Grammar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -514,12 +453,10 @@
         #endregion
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Panel panelFutureSubmenu;
-        private System.Windows.Forms.Button btnFutureExermenu;
         private System.Windows.Forms.Button btnFutureGoingmenu;
         private System.Windows.Forms.Button btnFutureWillmenu;
         private System.Windows.Forms.Button btnFuturemenu;
         private System.Windows.Forms.Panel panelPastSubmenu;
-        private System.Windows.Forms.Button btnPastExermenu;
         private System.Windows.Forms.Button btnPastContmenu;
         private System.Windows.Forms.Button btnPastSimplemenu;
         private System.Windows.Forms.Button btnPastmenu;
@@ -528,7 +465,6 @@
         private System.Windows.Forms.Button btnPresentSimplemenu;
         private System.Windows.Forms.Button btnPresentmenu;
         private System.Windows.Forms.Panel panelLogo;
-        private System.Windows.Forms.Button btnPresentExermenu;
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;

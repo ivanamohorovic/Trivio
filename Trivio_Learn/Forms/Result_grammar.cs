@@ -23,7 +23,23 @@ namespace Trivio_Learn.Forms
         string saveGraph;
         string saveVerb_number;
         int saveIdTenses;
+        int saveIdTensesMain;
         List<string> saveList;
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelResult.Controls.Add(childForm);
+            panelResult.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
 
 
         Label[] lbl = new Label[10];
@@ -38,9 +54,14 @@ namespace Trivio_Learn.Forms
             saveVerb_number = getResult;
         }
 
-        public void IdTenses (int getResult)
+      /*  public void IdTenses (int getResult)  ako ne radi samo u prozoru exercises gramar na dnu kod get result makni main
         {
             saveIdTenses = getResult;
+        }
+      */
+        public void IdTensesMain (int getResult)
+        {
+            saveIdTensesMain = getResult;
         }
 
         public void Lista(List<string> getResult)
@@ -103,5 +124,49 @@ namespace Trivio_Learn.Forms
         {
 
         }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            if (saveIdTensesMain == 1)
+            {
+                openChildForm(new Exercises_grammar());
+            }
+            else if (saveIdTensesMain == 2)
+            {
+                openChildForm(new Exercises_grammar());
+            }
+            else if (saveIdTensesMain == 3)
+            {
+                openChildForm(new Exercises_grammar());
+            }
+            else if (saveIdTensesMain == 4)
+            {
+                openChildForm(new Exercises_grammar());
+            }
+            else if (saveIdTensesMain == 5)
+            {
+                openChildForm(new Exercises_grammar());
+            }
+            else
+            {
+                openChildForm(new Exercises_grammar());
+            }
+
+
+            Exercises_grammar myResult = new Exercises_grammar();
+            int saveGrammarTensesClick = saveIdTensesMain;
+
+            myResult.IdTensesMain (saveIdTensesMain);
+
+            myResult.TopLevel = false;
+            myResult.FormBorderStyle = FormBorderStyle.None;
+            myResult.Dock = DockStyle.Fill;
+            panelResult.Controls.Add(myResult);
+            panelResult.Tag = myResult;
+            myResult.BringToFront();
+
+            myResult.Show();
+        }
     }
+    
 }

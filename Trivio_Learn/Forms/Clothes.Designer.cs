@@ -39,13 +39,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.termsvocabularyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.trivio_learnDataSet1 = new Trivio_Learn.trivio_learnDataSet1();
-            this.terms_vocabularyTableAdapter = new Trivio_Learn.trivio_learnDataSet1TableAdapters.terms_vocabularyTableAdapter();
             this.play = new System.Windows.Forms.DataGridViewButtonColumn();
             this.audio_path = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.termDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.termsvocabularyBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.trivio_learnDataSet1 = new Trivio_Learn.trivio_learnDataSet1();
+            this.terms_vocabularyTableAdapter = new Trivio_Learn.trivio_learnDataSet1TableAdapters.terms_vocabularyTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.termsvocabularyBindingSource)).BeginInit();
@@ -166,20 +166,6 @@
             this.dataGridView1.TabIndex = 55;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // termsvocabularyBindingSource
-            // 
-            this.termsvocabularyBindingSource.DataMember = "terms_vocabulary";
-            this.termsvocabularyBindingSource.DataSource = this.trivio_learnDataSet1;
-            // 
-            // trivio_learnDataSet1
-            // 
-            this.trivio_learnDataSet1.DataSetName = "trivio_learnDataSet1";
-            this.trivio_learnDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // terms_vocabularyTableAdapter
-            // 
-            this.terms_vocabularyTableAdapter.ClearBeforeFill = true;
-            // 
             // play
             // 
             this.play.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -239,6 +225,20 @@
             this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
             this.descriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // termsvocabularyBindingSource
+            // 
+            this.termsvocabularyBindingSource.DataMember = "terms_vocabulary";
+            this.termsvocabularyBindingSource.DataSource = this.trivio_learnDataSet1;
+            // 
+            // trivio_learnDataSet1
+            // 
+            this.trivio_learnDataSet1.DataSetName = "trivio_learnDataSet1";
+            this.trivio_learnDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // terms_vocabularyTableAdapter
+            // 
+            this.terms_vocabularyTableAdapter.ClearBeforeFill = true;
+            // 
             // Clothes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,6 +247,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Clothes";
             this.Text = "Clothes";
             this.Load += new System.EventHandler(this.Clothes_Load);

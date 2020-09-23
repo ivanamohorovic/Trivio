@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reading1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +47,18 @@
             this.panel1.Size = new System.Drawing.Size(700, 465);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 22F);
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(57, 18);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(165, 37);
+            this.bunifuCustomLabel1.TabIndex = 88;
+            this.bunifuCustomLabel1.Text = "Reading 1";
             // 
             // bunifuFlatButton4
             // 
@@ -96,18 +108,6 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "My day";
             // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 22F);
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(57, 18);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(165, 37);
-            this.bunifuCustomLabel1.TabIndex = 88;
-            this.bunifuCustomLabel1.Text = "Reading 1";
-            // 
             // Reading1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +116,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Reading1";
             this.Text = "Reading1";
             this.Load += new System.EventHandler(this.Reading1_Load);

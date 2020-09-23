@@ -347,6 +347,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelChildFormPresentContinuousRules);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PresentContinuousRules";
             this.Text = "PresentContinuousRules";
             this.Load += new System.EventHandler(this.PresentContinuousRules_Load_1);

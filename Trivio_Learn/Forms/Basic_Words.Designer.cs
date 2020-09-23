@@ -251,6 +251,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelbasicwords);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Basic_Words";
             this.Text = "Basic_Words";
             this.Load += new System.EventHandler(this.Basic_Words_Load);

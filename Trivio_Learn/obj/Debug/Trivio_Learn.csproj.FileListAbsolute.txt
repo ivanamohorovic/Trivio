@@ -24,7 +24,6 @@ C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.FutureGoingRules.resources
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.FutureWillRules.resources
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.PastContinuousRules.resources
-C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.csprojAssemblyReference.cache
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\bin\Debug\EntityFramework.dll
@@ -107,3 +106,4 @@ C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.Vocabulary_test.resources
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.Exercises_grammar.resources
 C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.Forms.Rules_grammar.resources
+C:\Users\Ivana\Desktop\zavrsni\Trivio_Learn\Trivio_Learn\Trivio_Learn\obj\Debug\Trivio_Learn.csprojAssemblyReference.cache

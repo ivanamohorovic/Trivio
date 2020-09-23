@@ -103,7 +103,7 @@
             this.panelExerPresentSimple.TabIndex = 0;
             this.panelExerPresentSimple.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // ExerPresentSimple
+            // Exercises_grammar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,7 +111,8 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelExerPresentSimple);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ExerPresentSimple";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Exercises_grammar";
             this.Text = "ExerPresentSimple";
             this.Load += new System.EventHandler(this.ExerPresentSimple_Load);
             ((System.ComponentModel.ISupportInitialize)(this.sentenceBindingSource)).EndInit();

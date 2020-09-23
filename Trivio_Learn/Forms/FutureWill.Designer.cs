@@ -181,6 +181,7 @@
             this.ClientSize = new System.Drawing.Size(700, 465);
             this.Controls.Add(this.panelChildFormFutureWill);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FutureWill";
             this.Text = "WillFuture";
             this.panelChildFormFutureWill.ResumeLayout(false);
